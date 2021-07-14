@@ -101,7 +101,7 @@ componentDidMount(){
                                      <td>{customer.mobileNumber}</td>
                                     <td>{customer.emailId}</td>
                                     <td>
-                                        <button onClick= { ()=> this.editCustomer(customer.id)} className="btn btn-info">Update</button>
+                                        <button onClick= { ()=> this.editCustomer(customer.userId)} className="btn btn-info">Update</button>
                                         <button style={{marginLeft: "10px"}} onClick={ () => this.deleteCustomer(customer.userId)} className="btn btn-danger">Delete </button>
                                         <button style={{marginLeft: "10px"}} onClick={ () => this.viewCustomer(customer)} className="btn btn-info">View </button>
                                           
